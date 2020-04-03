@@ -1,0 +1,13 @@
+Host: 192.168.198.102
+UserName: smu
+Password: smu
+
+ansible_host: 192.168.198.102
+ansible_user: smu
+ansible_ssh_pass: smu
+ansible_connection: network_cli
+ansible_network_os: ios
+ansible_become: yes
+ansible_become_method: enable
+ansible_become_pass: smu
+
